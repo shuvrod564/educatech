@@ -1,0 +1,23 @@
+
+.header { box-shadow: 8px 8px 32px 0px #0e00620f;}  
+.header .search__block form input[type=text] {outline:none;padding: 0 15px;font-size: 16px;border: 2px solid #e2e2e4;float: left;width: 100%;background: #fff;height: 56px;color: #303744B2;border-radius: 4px 0 0 4px;border-right: 0;}
+.header .search__block form button {float: left;width: 52px;background: var(--primary);color: white;font-size: 18px;border-left: none;cursor: pointer;height: 56px;border: none;border-radius: 0 4px 4px 0;}
+.header .search__block form button:hover {background: #303744;} 
+
+
+.header__menu {border-top: solid 1px #e3e1ec; } 
+.header__menu .navbar-default {padding-top: 8px;background: none;border: none;min-height: auto;margin-bottom: 0;}
+.header__menu ul li {margin-right: 26px;}
+.header__menu .navbar {background: none !important;padding: 0;}
+.header__menu ul li a {transition: all 500ms;text-transform: capitalize;font-size: 16px;font-weight: 400;color: #303744 !important;padding: 0 !important;}
+.header__menu ul li a:hover {color: var(--primary) !important;}
+.header__menu .navbar-brand {padding: 0;margin-left: 0 !important;height: auto;}
+.header__menu .navbar-header {flex-grow: 1;}
+.header__menu .collapse {padding: 0;}
+.header__menu .container-fluid {padding: 0;}
+.header__menu .login-block {text-align: right;} 
+.header__menu .login-block a {transition: all 500ms;font-size: 15px;font-weight: 500;color: var(--primary);border: solid 2px var(--primary);border-radius: 4px;display: inline-table;width: 118px;height: 35px;line-height: 35px;text-align: center;text-decoration: none;margin-left: 4px;}
+.header__menu .login-block a:hover {background: var(--primary);color: #fff;}
+.header__menu .login-block i {margin-right: 10px;} 
+
+.auth__btns a { padding: .45rem 1.5rem; }

@@ -1,0 +1,12 @@
+
+.footer h3 {transition: all 500ms;color: #fff;font-size: 19px;font-weight: 500;margin: 0 0 30px;}
+.footer h3:hover {color: #1ba6f8;} 
+.footer ul li {margin-bottom: 10px;}
+.footer ul li a {font-size: 14px;color: #fff;font-weight: 400;text-decoration: none;display: inline-block;width: 100%;transition: all 500ms;}
+.footer ul li a:hover {text-decoration: underline;font-weight: 500;}
+.footer .play {float: right;}
+.footer .play .footer-play img {margin-right: 4px;}
+.copy_right {background: #1E9FD9;padding: 20px 0;}
+.copy_right p {margin: 0;color: #fff;font-size: 14px;line-height: 40px;} 
+.copy_right .social__links a {color: #fff;border: solid 1px #FFFFFF33;width: 40px;height: 40px;font-size: 16px;transition: all 500ms;}
+.copy_right .social__links a:hover {color: #0036E3;background:#fff;}
