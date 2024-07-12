@@ -41,7 +41,7 @@ export default function Home() {
           <div className="">
             <p className="top__title text-center text-primary">Require steps</p>
             <h2 className="text-center fs-2">Search Academic Expert Made Easy</h2>
-            <p>We are the largest, globally connected network of top academic talent, and we're prepared to tackle your most critical projects.</p>
+            <p>We are the largest, globally connected network of top academic talent, and we&apos;re prepared to tackle your most critical projects.</p>
           </div>
           <div className="row g-4 mt-4">
             <div className="col-md-3 col-sm-6">
