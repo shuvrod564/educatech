@@ -112,7 +112,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Agriculture</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Architecture</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Business</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Engineering</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Social Science</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Medicine</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Environmental Science</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@ export default function Home() {
                 </div>
                 <div className="experts-text">
                   <h3><a href="#">Science</a></h3>
-                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis quisquam recusandae?</p>
                 </div>
               </div>
             </div>

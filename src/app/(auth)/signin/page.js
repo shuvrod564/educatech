@@ -68,7 +68,7 @@ const page = () => {
           </div>
 
           <div className={`${styles.singup} mt-4 text-center`}>
-            <p>Haven't any account, <Link href="/register" className="link text-decoration-underline">Sign Up</Link></p>
+            <p>Haven&apos;t any account, <Link href="/register" className="link text-decoration-underline">Sign Up</Link></p>
           </div>
            
 
