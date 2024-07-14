@@ -1,0 +1,23 @@
+.register__form { max-width: 600px;margin-left: auto;margin-right: auto;box-shadow: 12px 12px 48px 0px #0e006221;padding: 60px 40px;border-radius: 12px; }
+.or__border {text-align: center;position: relative;display: flex;align-items: center;justify-content: center;margin: 20px 0;}
+.or__border:before {content: "";background: #0000001C;height: 1px;width: 100%;position: absolute;left: 0;right: 0;top: 10px;}
+.or__border span {background: #fff;z-index: 99;position: relative;width: 85px;display: inline-block;color: #303744;font-size: 15px;}
+
+
+
+.form__group {position: relative; }
+.form__group label {z-index: 1;font-size: 14px;font-weight: 500;color: #303744;position: absolute;top: -9px;background: #fff;padding: 0 10px;left: 15px;}
+.form__group .input {border: solid 2px #0000001A;height: 55px;width: 100%;border-radius: 4px;padding: 0 15px;outline: none;font-size: 15px;color: var(--dark);font-weight: 500; }
+.form__group .input::placeholder {color: #303744B2;font-weight: 400;}
+ 
+.sendemail .sendemaicheck {display: flex;}
+.sendemail .sendemaicheck label {margin: 0;color: #303744; }
+.sendemail .sendemaicheck input {width: 20px;height: 20px;margin-right: 8px;min-width: 20px;}
+.sendemail .sendemaicheck:last-child {margin-top: 15px;}
+.sendemail .sendemaicheck p a {color: #303744;text-decoration: underline; }
+.sendemail .sendemaicheck p a:hover {color: #0036E3;}
+
+ 
+@media (max-width: 768px) {
+    .register__form { padding: 3rem 1.5rem; } 
+}

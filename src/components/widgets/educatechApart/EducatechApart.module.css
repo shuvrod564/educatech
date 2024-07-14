@@ -1,0 +1,5 @@
+ 
+.nav_tab li {float: none;display: inline-block;margin: 0;}
+.nav_tab li button {color: #303744;padding: 0 30px;background: none;}
+.active  {color: var(--primary) !important;border-bottom: solid 3px var(--primary) !important;}
+.icon { font-size: 2rem;color:var(--primary);width: 2rem;line-height: 1; }

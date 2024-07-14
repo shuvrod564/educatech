@@ -5,6 +5,8 @@ import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { LuThumbsUp } from "react-icons/lu";
 import { MdSecurity } from "react-icons/md";
+import Categories from "@/components/widgets/categories/Categories";
+import EducatechApart from "@/components/widgets/educatechApart/EducatechApart";
 
 export default function Home() {
   return (
@@ -39,7 +41,7 @@ export default function Home() {
       <div className="py-5 text-center">
         <div className="container py-md-4">
           <div className="">
-            <p className="top__title text-center text-primary">Require steps</p>
+            <p className="top__title text-center text-primary text-uppercase fw-normal">Require steps</p>
             <h2 className="text-center fs-2">Search Academic Expert Made Easy</h2>
             <p>We are the largest, globally connected network of top academic talent, and we&apos;re prepared to tackle your most critical projects.</p>
           </div>
@@ -48,9 +50,9 @@ export default function Home() {
               <div className="require-block">
                 <div className="mb-3">
                   <HiOutlineAcademicCap className="display-3 text-primary" />
-                </div> 
+                </div>
                 <div className="require-text">
-                  <h3 className="fs-5">Post Academic <br/> Projects</h3>
+                  <h3 className="fs-5">Post Academic <br /> Projects</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique amet maiores eos suscipit asperiores error!</p>
                 </div>
               </div>
@@ -59,9 +61,9 @@ export default function Home() {
               <div className="require-block">
                 <div className="mb-3">
                   <MdOutlineMarkEmailRead className="display-3 text-primary" />
-                </div> 
+                </div>
                 <div className="require-text">
-                  <h3 className="fs-5">Receive Project <br/> Interest</h3>
+                  <h3 className="fs-5">Receive Project <br /> Interest</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique amet maiores eos suscipit asperiores error!</p>
                 </div>
               </div>
@@ -70,9 +72,9 @@ export default function Home() {
               <div className="require-block">
                 <div className="mb-3">
                   <LuThumbsUp className="display-3 text-primary" />
-                </div> 
+                </div>
                 <div className="require-text">
-                  <h3 className="fs-5">Select the Best <br/> Match for you</h3>
+                  <h3 className="fs-5">Select the Best <br /> Match for you</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique amet maiores eos suscipit asperiores error!</p>
                 </div>
               </div>
@@ -81,9 +83,9 @@ export default function Home() {
               <div className="require-block">
                 <div className="mb-3">
                   <MdSecurity className="display-3 text-primary" />
-                </div> 
+                </div>
                 <div className="require-text">
-                  <h3 className="fs-5">Pay <br/> Security</h3>
+                  <h3 className="fs-5">Pay <br /> Security</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique amet maiores eos suscipit asperiores error!</p>
                 </div>
               </div>
@@ -93,6 +95,131 @@ export default function Home() {
       </div>
       {/* Search Wrapper End */}
 
+      {/* Experts Area Wrapper Start */}
+      <div className="experts-main py-5">
+        <div className="container py-md-4">
+          <div className="mb-4"> 
+            <p className="top__title text-center text-primary text-uppercase fw-medium mb-2">Experts area</p>
+            <h2 className="text-center fs-1">Search Experts by Field</h2>
+          </div>
+          <div className="row g-4">
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts1.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Agriculture</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts2.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Architecture</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts3.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Business</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts4.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Engineering</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts5.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Social Science</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts6.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Medicine</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts7.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Environmental Science</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-3 col-sm-6">
+              <div className="experts-block">
+                <div className="experts-img mb-3">
+                  <a href="#">
+                    <Image src="/images/common/experts8.jpg" width={312} height={242} alt="image" /> 
+                  </a>
+                </div>
+                <div className="experts-text">
+                  <h3><a href="#">Science</a></h3>
+                  <p>I am ready to serve you anything course related academics help. Don't hesitate me to contact.</p>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      {/* Experts Area Wrapper End */}
+
+
+      {/* Categories Wrapper Start */}
+      <Categories />
+      {/* Categories Wrapper End */}
+
+      {/* Categories Wrapper Start */}
+      <EducatechApart />
+      {/* Categories Wrapper End */}
 
 
 
