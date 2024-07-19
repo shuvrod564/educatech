@@ -1,0 +1,11 @@
+.muted__color { color: #30374499; }
+
+.taglist span { border: solid 1px #e0e3e8;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #535965;  
+    padding: 3px 12px;
+    background: #e0e3e8;
+    
+}

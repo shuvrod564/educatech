@@ -1,0 +1,3 @@
+.search__box { border: 2px solid var(--border-color);border-radius: var(--radius); }
+.search__box input::placeholder { color: #303744B2; }
+.btn { color: #222; }

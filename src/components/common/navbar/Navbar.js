@@ -11,9 +11,7 @@ import { IoCloseOutline } from "react-icons/io5";
 
 const Navbar = () => {
     const [showResMenu, setShowResMenu] = useState(false);
-
-    console.log(showResMenu);
-
+ 
     return (
         <>
             <nav className={styles.header}>
@@ -39,7 +37,7 @@ const Navbar = () => {
                         </div>
                         <div className="col-lg-3 col-sm-8 col-6 text-end">
                             <div className="d-none d-lg-flex flex-wrap justify-content-end gap-1 gap-xl-3 gap-xxl-4">
-                                <Link href="#" className={`link ${styles.action__link}`}>Post your Project</Link>
+                                <Link href="/post-project" className={`link ${styles.action__link}`}>Post your Project</Link>
                                 <Link href="#" className={`link ${styles.action__link}`}>Become an Expert</Link>
                             </div>
                             <div className="d-flex d-lg-none justify-content-end align-items-center">
@@ -60,10 +58,10 @@ const Navbar = () => {
                                     <div className="collapse navbar-collapse" id="navbarNav">
                                         <ul className="navbar-nav gap-3 gap-xl-4 gap-xxl-5">
                                             <li className="nav-item">
-                                                <a className="nav-link" href="find-consultant.html">Find Consultants</a>
+                                                <Link className="nav-link" href="/find-consultant/">Find Consultants</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="find-projects.html">Find Projects</a>
+                                                <Link className="nav-link" href="/find-projects/">Find Projects</Link>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link" href="find-training.html">Find Training</a>
@@ -114,10 +112,10 @@ const Navbar = () => {
                     <div className={`${styles.scroll__box} mt-sm-4`}>
                         <ul className="d-flex flex-column gap-2 gap-sm-3 list-unstyled p-3">
                             <li>
-                                <a className={styles.nav__link} href="find-consultant.html">Find Consultants</a>
+                                <Link className={styles.nav__link} href="/find-consultant/">Find Consultants</Link>
                             </li>
                             <li>
-                                <a className={styles.nav__link} href="find-projects.html">Find Projects</a>
+                                <Link className={styles.nav__link} href="/find-projects/">Find Projects</Link>
                             </li>
                             <li>
                                 <a className={styles.nav__link} href="find-training.html">Find Training</a>
