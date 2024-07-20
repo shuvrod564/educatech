@@ -1,0 +1,18 @@
+.thumbnail { width: 4rem; }
+
+.skils {
+    color: #30374499;
+    font-size: .812rem;
+}
+.skils span:not(:last-child)::after {
+    content: "|";
+    font-size: 1rem;
+    line-height: 1;
+    margin-left: .5rem;
+    font-weight: 400;
+}
+
+.data__table tbody tr td { border: 0;padding: .25rem;font-size: .937rem; }
+.data__table tbody tr td:nth-child(1) { padding-left: 0;color: var(--primary); }
+.data__table tbody tr td:nth-child(2) { color: var(--dark);font-weight: 500; }
+.data__table tbody tr td a { color: var(--primary);text-decoration: underline; }

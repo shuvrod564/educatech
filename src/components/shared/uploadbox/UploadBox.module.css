@@ -1,0 +1,5 @@
+.upload__file {text-align: center;border: dashed 2px #0000001A;border-radius: 4px;padding: 23px 15px;width: 100%; }
+.upload__file .upload__icon {position: relative;}
+.upload__file .upload__icon input {margin: auto;width: 80px;height: 40px;position: absolute;right: 0;left: 0;opacity: 0;cursor: pointer;z-index: 9;}
+.upload__file span {color: #303744;font-size: 15px;font-weight: 500;margin: 10px 0 6px;display: inline-block;}
+.upload__file p {color: #303744B2;line-height: 19px;font-size: 14px;margin: 0;}

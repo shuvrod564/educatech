@@ -81,7 +81,7 @@ const ConsultantList = () => {
                                     <div className={`d-inline-flex align-items-center fw-medium flex-wrap gap-2 ${styles.skils}`}>
                                         {
                                             consultant.expertise.map((expert, index)=>(
-                                                <span>{expert.skill}</span> 
+                                                <span key={index}>{expert.skill}</span> 
                                             ))
                                         } 
                                     </div>

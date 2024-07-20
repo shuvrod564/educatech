@@ -53,7 +53,7 @@ const page = () => {
             <div className="col-12"> 
               <div className={styles.form__group}>
                 <label>Email Address</label>
-                <input type="text" placeholder="name@gmail.com" name="email" className={styles.input} />
+                <input type="text" placeholder="name@gmail.com" name="email" className={styles.input} autoComplete={false} />
               </div>
             </div>
             <div className="col-12"> 

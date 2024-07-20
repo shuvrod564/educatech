@@ -19,7 +19,7 @@ export default function Home() {
               <h1 className="display-5 fw-medium mb-3 text-dark">Find a Top Academic <br /> Expert for Your Project</h1>
               <p className="lead-sm mb-3 mb-sm-4 text-dark"><b>EDUCATECH</b> is an exclusive platform featuring top academic experts across diverse fields. Whether it&apos;s a personal or institutional project</p>
               <div className="d-flex gap-3">
-                <Link href="#" className="btn btn-primary">Find an Expert</Link>
+                <Link href="/consultant/" className="btn btn-primary">Find an Expert</Link>
                 <Link href="#" className="btn btn-outline-primary">Become an Expert</Link>
               </div>
             </div>

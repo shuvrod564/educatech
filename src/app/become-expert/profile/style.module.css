@@ -1,0 +1,9 @@
+.timeline__left {box-shadow: 8px 8px 24px 0px #02024624;padding: 40px;border-radius: 8px;} 
+.timeline__left ul {padding: 0 0 0 22px;margin: 0;position: relative;}
+.timeline__left ul:before {content: "";background: #E4E7EC;width: 2px;height: 385px;position: absolute;left: 0;}
+.timeline__left ul li {margin-bottom: 25px;position: relative;}
+.timeline__left ul li h4 {font-size: 19px;font-weight: 500;color: #344054;margin-bottom: 0;}
+.timeline__left ul li p {margin: 0;font-weight: 400;font-size: 16px;color: #303744;}
+.timeline__left ul li:before {content: "";background: #fff;width: 35px;height: 35px;position: absolute;border-radius: 100%;left: -40px;z-index: 1;top: -5px;}
+.timeline__left ul li:after {content: '';background: #fff;width: 25px;height: 25px;position: absolute;border-radius: 100%;left: -34px;top: 0;border: solid 8px #f2f4f7;z-index: 9;}
+.timeline__left ul li.active:after { border-color: var(--primary); }

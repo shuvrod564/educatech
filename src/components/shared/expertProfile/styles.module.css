@@ -1,0 +1,22 @@
+.timeline__according  h2 {transition: all 500ms;align-items: center;font-size: 16px;color: #303744;font-weight: 400;cursor: pointer;position: relative;display: flex;border-bottom: solid 1px #0E00621A;padding-bottom: 12px;margin-bottom: 14px;}
+.timeline__according  h2:after {content: "\f107";font-family: 'FontAwesome';position: absolute;right: 0;}
+.timeline__according .active h2:after {content: "\f106";}
+.timeline__according .active h2{color: #0036E3;font-weight:500;}
+.timeline__according ul {padding: 0;margin-bottom: 5px;}
+.timeline__according ul li a {text-decoration: none;color: #303744B2;font-size: 16px;font-weight: 400;padding: 4px 15px;display: inline-block;width: 100%;border-radius: 4px;transition: all 500ms;}
+.timeline__according ul li a:hover {background: #0059C91A;color: #275846;}
+
+.timeline__according {padding: 0 20px;}
+.register-timeline-2 .timeline-block2 {padding: 20px;margin-top: 33px;}
+.register-timeline-2 .timeline-block2 ul li a {text-decoration: none;display: flex;align-items: center;font-size: 14px;color: #303744;background: #30374408;border: solid 1px #30374445;border-radius: 4px;padding: 2px 6px;}
+.register-timeline-2 .timeline-block2  ul li a img {margin-left: 8px;}
+.register-timeline-2 .timeline-block2 ul {padding: 0;margin: 0 0 20px;}
+.register-timeline-2 .timeline-block2 ul li {display: inline-block;margin-bottom: 5px;}
+
+
+
+.timeline__block { border: solid 2px #0000001A;border-radius: 4px;padding-bottom: 15px;min-height: 448px; }
+.timeline__search input {width: 100%;height: 40px;border-radius: 4px;outline: none;border: solid 2px #0000001A;color: #303744;font-size: 16px;padding: 0 15px 0 35px;}
+.timeline__search button {position: absolute;left: 22px;border: none;background: none;outline: none;height: 40px;line-height: 40px;padding: 0 10px;}
+.timeline__search {position: relative;padding: 20px;border-bottom: solid 1px #00000012;margin-bottom: 25px;}
+.timeline__search button i {color: #303744B2;}

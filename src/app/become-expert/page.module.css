@@ -1,0 +1,17 @@
+.title {font-size: 23px;font-weight: 500;color: #303744;margin-bottom: 30px;}
+.register__profile .expert__left ul {padding: 0;margin: 0;}
+.register__profile .expert__left ul a {display: flex;align-items: center;text-decoration: none;border: solid 1px #30374433;border-radius: 4px;padding: 10px 24px;}
+.register__profile .expert__left ul li .expert__left__img  {background: #0059C90F;width: 48px;height: 48px;border-radius: 100%;text-align: center;display: flex;align-items: center;justify-content: center;margin-right: 15px;}
+.register__profile .expert__left ul li p {margin: 0;color: #303744;font-size: 18px;font-weight: 400;}
+.register__profile .expert__left ul li {margin-bottom: 17px;}  
+
+.get__started__btn { font-size: 1.125rem;max-width: 500px; }
+
+.expert__right {box-shadow: 12px 12px 48px 0px #0e006221;padding: 40px 15px;border-radius: 8px;} 
+.expert__right h4 {font-size: 19px;font-weight: 500;margin-bottom: 20px;}
+.expert__right h3 {color: #303744;font-size: 16px;font-weight: 500;margin: 20px 0 0;}
+.expert__right ul {padding: 0;margin: 0;}
+.expert__right ul li { color: #303744;font-size: 14px; }
+.expert__right ul li img {margin-right: 5px;}
+.expert__right .consultant-left-block {margin-bottom: 15px;}
+.expert__right p {font-size: 14px;margin: 0;color: #303744B2;font-weight: 400;}

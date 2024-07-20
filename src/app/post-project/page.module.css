@@ -1,0 +1,10 @@
+.client_job_block { background: #0036E30D;border: solid 1px #0059C924; }
+
+.client__job__hourly {position: relative; }
+.client__job__hourly label {background: #0059C905;border-radius: 4px;border: solid 1px #0059C94D;display: flex;padding: 30px;margin-top: 18px;color: var(--dark); }
+.client__job__hourly input:checked + label {background: var(--primary);border: solid 1px var(--primary);color: var(--white); }
+.client__job__hourly .hourly__text h4 {font-size: 19px;font-weight: 500;}
+.client__job__hourly input:checked + label .hourly__text h4 { color: var(--white); }
+.client__job__hourly .hourly__text p {margin: 0;font-weight: 400;font-size: 14px;}
+.client__job__hourly .hourly__img {width: 18%;}
+.client__job__hourly .hourly__text {width: 77%;margin-left: 20px;} 

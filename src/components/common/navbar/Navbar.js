@@ -38,7 +38,7 @@ const Navbar = () => {
                         <div className="col-lg-3 col-sm-8 col-6 text-end">
                             <div className="d-none d-lg-flex flex-wrap justify-content-end gap-1 gap-xl-3 gap-xxl-4">
                                 <Link href="/post-project" className={`link ${styles.action__link}`}>Post your Project</Link>
-                                <Link href="#" className={`link ${styles.action__link}`}>Become an Expert</Link>
+                                <Link href="/become-expert/" className={`link ${styles.action__link}`}>Become an Expert</Link>
                             </div>
                             <div className="d-flex d-lg-none justify-content-end align-items-center">
                                 <Link href="/signin" className={`${styles.res__login__btn} btn btn-outline-primary d-inline-flex align-items-center gap-2`}><FaUser />Login</Link>
@@ -58,20 +58,17 @@ const Navbar = () => {
                                     <div className="collapse navbar-collapse" id="navbarNav">
                                         <ul className="navbar-nav gap-3 gap-xl-4 gap-xxl-5">
                                             <li className="nav-item">
-                                                <Link className="nav-link" href="/find-consultant/">Find Consultants</Link>
+                                                <Link className="nav-link" href="/consultant/">Find Consultants</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link className="nav-link" href="/find-projects/">Find Projects</Link>
+                                                <Link className="nav-link" href="/projects/">Find Projects</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="find-training.html">Find Training</a>
+                                                <Link className="nav-link" href="/training/">Find Training</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="scholarship-database.html">Scholarships Database</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="experts-database.html">Experts Database</a>
-                                            </li>
+                                                <Link className="nav-link" href="/scholarship-database/">Scholarships Database</Link>
+                                            </li> 
                                             <li className="nav-item">
                                                 <a className="nav-link" href="about-us.html">About Us</a>
                                             </li>
@@ -112,20 +109,17 @@ const Navbar = () => {
                     <div className={`${styles.scroll__box} mt-sm-4`}>
                         <ul className="d-flex flex-column gap-2 gap-sm-3 list-unstyled p-3">
                             <li>
-                                <Link className={styles.nav__link} href="/find-consultant/">Find Consultants</Link>
+                                <Link className={styles.nav__link} href="/consultant/">Find Consultants</Link>
                             </li>
                             <li>
-                                <Link className={styles.nav__link} href="/find-projects/">Find Projects</Link>
+                                <Link className={styles.nav__link} href="/projects/">Find Projects</Link>
                             </li>
                             <li>
-                                <a className={styles.nav__link} href="find-training.html">Find Training</a>
+                                <Link className={styles.nav__link} href="/training/">Find Training</Link>
                             </li>
                             <li>
-                                <a className={styles.nav__link} href="scholarship-database.html">Scholarships Database</a>
-                            </li>
-                            <li>
-                                <a className={styles.nav__link} href="experts-database.html">Experts Database</a>
-                            </li>
+                                <Link className={styles.nav__link} href="/scholarship-database/">Scholarships Database</Link>
+                            </li> 
                             <li>
                                 <a className={styles.nav__link} href="about-us.html">About Us</a>
                             </li>

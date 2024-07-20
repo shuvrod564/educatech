@@ -1,5 +1,5 @@
 
-.header { box-shadow: 8px 8px 32px 0px #0e00620f;padding-top: .75rem; }   
+.header { box-shadow: 8px 8px 32px 0px #0202020d;padding-top: .75rem; }   
 .logo { height: 1.625rem;width: auto; }
 .header .search__block form input[type=text] {outline:none;padding: 0 15px;font-size: 16px;border: 2px solid #e2e2e4;float: left;width: 100%;background: #fff;height: 56px;color: #303744B2;border-radius: 4px 0 0 4px;border-right: 0;}
 .header .search__block form button {float: left;width: 52px;background: var(--primary);color: white;font-size: 18px;border-left: none;cursor: pointer;height: 56px;border: none;border-radius: 0 4px 4px 0;}

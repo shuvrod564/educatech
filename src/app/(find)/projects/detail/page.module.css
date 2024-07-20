@@ -1,0 +1,11 @@
+.tag__list span:not(:last-child)::after { content: "|";font-size: 1rem;line-height: 1;margin: 0 .5rem;font-weight: 400; }
+
+.data__table tbody tr td { border: 0;padding: .25rem;font-size: .937rem; }
+.data__table tbody tr td:nth-child(1) { padding-left: 0;color: var(--primary); }
+.data__table tbody tr td:nth-child(2) { color: var(--dark);font-weight: 500; }
+.data__table tbody tr td a { color: var(--primary);text-decoration: underline; }
+
+
+.course__objectives { margin-bottom: 2rem; }
+.course__objectives h3 { margin: 0 0 15px; font-size: 19px;color: #303744; }
+.course__objectives p { color: #303744; }
