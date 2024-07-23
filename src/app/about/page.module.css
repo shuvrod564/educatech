@@ -1,0 +1,5 @@
+
+
+@media (max-width: 575px) {
+    .hero__thumbnail { min-height: 180px;object-fit: cover;object-position: center left; }
+}

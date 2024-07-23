@@ -6,6 +6,7 @@
   --dark: #303744;
   --white: #ffffff;
   --body-text-color: #5f6062;
+  --light-bg: #F1F3FA;
   --radius: 8px;
   --border-color: #e2e2e4;
   --body-font: 'Colfax';
@@ -40,6 +41,7 @@ b, strong { font-weight: 500; }
 .text-dark { color: var(--dark) !important}
 .text-muted { color: #303744B2 !important; }
 .bg-gradient { background-color: #E8EBF699 !important; }
+.bg-light { background-color: var(--light-bg); }
 
 
 h1,h2,h3,h4,h5,h6 { color: var(--dark); }
@@ -111,8 +113,7 @@ a { text-decoration: none;color: var(--dark); }
   .btn { padding: .75rem 1.5rem; }
 }
 @media (max-width: 767px) {  
-  html { font-size: 87.5%; }
-  .container { max-width: calc(100% - 20px); }
+  html { font-size: 87.5%; } 
   .btn { padding: .625rem 1rem; }
 }
 
@@ -124,6 +125,7 @@ a { text-decoration: none;color: var(--dark); }
 
 .form-check-input { width: 1.25rem;height: 1.25rem;border: 2px solid var(--border-color);margin-top: 0; }
 .form-check-input:checked { background-color: var(--primary);border-color: var(--primary); }
+.form-check-input:focus { box-shadow: none !important; }
 
 .form-control { border: 2px solid var(--border-color);height: 55px;padding: .5rem 1rem; }
 .form-select {
@@ -149,8 +151,10 @@ a { text-decoration: none;color: var(--dark); }
 
 .input__box {position: relative; }
 .input__box label {z-index: 1;font-size: .937rem;font-weight: 500;color: #303744;position: absolute;top: -9px;background: #fff;padding: 0 10px;left: 15px;}
-.input__box .input {border: solid 2px #0000001A;height: 55px;width: 100%;border-radius: 4px;padding: 6px 1rem 0 1rem;outline: none;font-size: 1rem;color: var(--dark);font-weight: 400; }
+.input__box .input, .input__box .form-select {border: solid 2px #0000001A;height: 55px;width: 100%;border-radius: 4px;padding: 6px 1rem 0 1rem;outline: none;font-size: 1rem;color: var(--dark);font-weight: 400;font-family: var(--body-font); }
 .input__box .input.textarea { height: auto;padding: 12px 1rem 0 1rem; }
 .input__box .input::placeholder {color: #303744B2;font-weight: 400;}
+.input__box .input.sm-size, .form-control.sm-size, .input__box .form-select.sm-size { height: 42px; padding: 0px 1rem 0 1rem;font-size: .875rem; }
 
 .title { font-size: 1.35rem;color:var(--dark); }
+.gap { gap: 2rem; }

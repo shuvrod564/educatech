@@ -1,220 +1,131 @@
 import React from 'react'
 import styles from './styles.module.css'
+import { IoSearch } from "react-icons/io5";
 
 const ExpertiseFeild = () => {
     return (
         <>
             <div className="row">
-                <div className="col-md-4">
-                    <h4>Fieldss</h4>
+                <div className="col-md-6 col-lg-4">
+                    <h4 className='fs-6 text-dark'>Fields</h4>
                     <div className={styles.timeline__block}>
                         <form className={styles.timeline__search}>
-                            <input type="text" placeholder="Search by field of expertise" name="search" />
-                                <button type="submit"><i className="fa fa-search"></i></button>
+                            <div className="position-relative"> 
+                                <input type="text" placeholder="Search by field of expertise" name="search" />
+                                <IoSearch className={styles.search__icon} />
+                            </div>
                         </form>
                         <div className={styles.timeline__according}>
-                            <div className="at-item">
+                            <div className={styles.checkbox__item}>
                                 <div className="d-flex justify-content-between align-items-center">
                                     <label htmlFor='Architecture'>Architecture</label>
                                     <input type="checkbox" id="Architecture" className='form-check-input' />
                                 </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Art</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Art'>Art</label>
+                                    <input type="checkbox" id="Art" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Biology</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Biology'>Biology</label>
+                                    <input type="checkbox" id="Biology" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Business</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Business'>Business</label>
+                                    <input type="checkbox" id="Business" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Chemistry</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Chemistry'>Chemistry</label>
+                                    <input type="checkbox" id="Chemistry" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Computer Programming</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Computer Programming'>Computer Programming</label>
+                                    <input type="checkbox" id="Computer Programming" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Data Analysis</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Design</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">Architecture 1</a></li>
-                                        <li><a href="#">Architecture 2</a></li>
-                                        <li><a href="#">Architecture 3</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Data Analysis'>Data Analysis</label>
+                                    <input type="checkbox" id="Data Analysis" className='form-check-input' />
+                                </div> 
+                            </div>  
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <h4>Categories of Expertise</h4>
-                    <div className="timeline-block">
-                        <form className="timeline-search">
-                            <input type="text" placeholder="Search by categories...." name="search" />
-                                <button type="submit"><i className="fa fa-search"></i></button>
+                <div className="col-md-6 col-lg-4">
+                    <h4 className='fs-6 text-dark'>Categories of Expertise</h4>
+                    <div className={styles.timeline__block}>
+                        <form className={styles.timeline__search}>
+                            <div className="position-relative"> 
+                                <input type="text" placeholder="Search by categories" name="search" />
+                                <IoSearch className={styles.search__icon} />
+                            </div>
                         </form>
-                        <div className="timeline-according">
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Accreditation Specialists</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                        <div className={styles.timeline__according}>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Accreditation Specialists'>Accreditation Specialists</label>
+                                    <input type="checkbox" id="Accreditation Specialists" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Curriculum Experts</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Curriculum Experts'>Curriculum Experts</label>
+                                    <input type="checkbox" id="Curriculum Experts" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Program Designers</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Program Designers'>Program Designers</label>
+                                    <input type="checkbox" id="Program Designers" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>LMS Experts</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='LMS Experts'>LMS Experts</label>
+                                    <input type="checkbox" id="LMS Experts" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Industry Experts</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Industry Experts'>Industry Experts</label>
+                                    <input type="checkbox" id="Industry Experts" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Finance Experts</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Finance Experts'>Finance Experts</label>
+                                    <input type="checkbox" id="Finance Experts" className='form-check-input' />
+                                </div> 
                             </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Policy Experts</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="at-item">
-                                <div className="at-title">
-                                    <h2>Project Managers</h2>
-                                </div>
-                                <div className="at-tab">
-                                    <ul>
-                                        <li><a href="#">LMS 1</a></li>
-                                        <li><a href="#">LMS 2</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <div className={styles.checkbox__item}>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <label htmlFor='Policy Experts'>Policy Experts</label>
+                                    <input type="checkbox" id="Policy Experts" className='form-check-input' />
+                                </div> 
+                            </div> 
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="timeline-block timeline-block2">
-                        <h4>Expertise</h4>
-                        <ul>
-                            <li><a href="#">Architecture 1<img src="images/close-i.png"/></a></li>
-                            <li><a href="#">Architecture 2<img src="images/close-i.png"/></a></li>
+                <div className="col-md-6 col-lg-4">
+                    <h4 className='fs-6 text-dark'>Expertise</h4>
+                    <div className={`${styles.timeline__block} p-4`}>
+                        <ul className={`${styles.expertise__list} list-unstyled ps-0 d-flex flex-wrap gap-2`}>
+                            <li><a href="#">Architecture 1<img src="/images/icons/close-i.png"/></a></li>
+                            <li><a href="#">Architecture 2<img src="/images/icons/close-i.png"/></a></li>
                         </ul>
-                        <ul>
-                            <li><a href="#">LMS 1<img src="images/close-i.png"/></a></li>
-                            <li><a href="#">LMS 2<img src="images/close-i.png"/></a></li>
+                        <ul className={`${styles.expertise__list} list-unstyled ps-0 d-flex flex-wrap gap-2`}>
+                            <li><a href="#">LMS 1<img src="/images/icons/close-i.png"/></a></li>
+                            <li><a href="#">LMS 2<img src="/images/icons/close-i.png"/></a></li>
                         </ul>
                     </div>
                 </div>

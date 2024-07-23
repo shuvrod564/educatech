@@ -107,7 +107,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts1.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts1.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -120,7 +120,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts2.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts2.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -133,7 +133,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts3.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts3.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -146,7 +146,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts4.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts4.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts5.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts5.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -172,7 +172,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts6.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts6.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -185,7 +185,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts7.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts7.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="experts-block">
                 <div className="experts-img mb-3">
                   <a href="#">
-                    <Image src="/images/common/experts8.jpg" width={312} height={242} alt="image" /> 
+                    <Image src="/images/common/experts8.jpg" width={312} height={242} alt="image" className="w-100" /> 
                   </a>
                 </div>
                 <div className="experts-text">

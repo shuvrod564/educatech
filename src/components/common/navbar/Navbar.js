@@ -70,7 +70,7 @@ const Navbar = () => {
                                                 <Link className="nav-link" href="/scholarship-database/">Scholarships Database</Link>
                                             </li> 
                                             <li className="nav-item">
-                                                <a className="nav-link" href="about-us.html">About Us</a>
+                                                <a className="nav-link" href="/about">About Us</a>
                                             </li>
                                         </ul>
                                     </div> 
@@ -102,26 +102,26 @@ const Navbar = () => {
                     </div>
                     <div className="p-3">
                         <div className="d-flex flex-wrap justify-content-between gap-2">
-                            <Link href="#" className={`link ${styles.action__link}`}>Post your Project</Link>
-                            <Link href="#" className={`link ${styles.action__link}`}>Become an Expert</Link>
+                            <Link href="/post-project/" className={`link ${styles.action__link}`} onClick={()=>setShowResMenu(false)}>Post your Project</Link>
+                            <Link href="/become-expert/" className={`link ${styles.action__link}`} onClick={()=>setShowResMenu(false)}>Become an Expert</Link>
                         </div>
                     </div>
                     <div className={`${styles.scroll__box} mt-sm-4`}>
-                        <ul className="d-flex flex-column gap-2 gap-sm-3 list-unstyled p-3">
+                        <ul className="d-flex flex-column gap-3 gap-sm-3 list-unstyled p-3">
                             <li>
-                                <Link className={styles.nav__link} href="/consultant/">Find Consultants</Link>
+                                <Link className={styles.nav__link} href="/consultant/" onClick={()=>setShowResMenu(false)}>Find Consultants</Link>
                             </li>
                             <li>
-                                <Link className={styles.nav__link} href="/projects/">Find Projects</Link>
+                                <Link className={styles.nav__link} href="/projects/" onClick={()=>setShowResMenu(false)}>Find Projects</Link>
                             </li>
                             <li>
-                                <Link className={styles.nav__link} href="/training/">Find Training</Link>
+                                <Link className={styles.nav__link} href="/training/" onClick={()=>setShowResMenu(false)}>Find Training</Link>
                             </li>
                             <li>
-                                <Link className={styles.nav__link} href="/scholarship-database/">Scholarships Database</Link>
+                                <Link className={styles.nav__link} href="/scholarship-database/" onClick={()=>setShowResMenu(false)}>Scholarships Database</Link>
                             </li> 
                             <li>
-                                <a className={styles.nav__link} href="about-us.html">About Us</a>
+                                <a className={styles.nav__link} href="/about/" onClick={()=>setShowResMenu(false)}>About Us</a>
                             </li>
                         </ul>
                     </div>

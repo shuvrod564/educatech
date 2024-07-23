@@ -1,5 +1,6 @@
 import Search from '@/components/shared/search/Search'
 import React from 'react'
+import styles from './style.module.css'
 
 
 const Filter = () => {
@@ -90,10 +91,10 @@ const Filter = () => {
                     <li>
                         <div className="row g-3">
                             <div className="col-6"> 
-                                <input type="text" placeholder="Min" className='form-control'/>
+                                <input type="text" placeholder="Min" className={`${styles.form__control} form-control`}/>
                             </div>
                             <div className="col-6">
-                                <input type="text" placeholder="Max" className='form-control'/> 
+                                <input type="text" placeholder="Max" className={`${styles.form__control} form-control`}/> 
                             </div>
                         </div>
                     </li>
@@ -108,10 +109,10 @@ const Filter = () => {
                     <li>
                         <div className="row g-3">
                             <div className="col-6"> 
-                                <input type="text" placeholder="Min" className='form-control'/>
+                                <input type="text" placeholder="Min" className={`${styles.form__control} form-control`}/>
                             </div>
                             <div className="col-6">
-                                <input type="text" placeholder="Max" className='form-control'/> 
+                                <input type="text" placeholder="Max" className={`${styles.form__control} form-control`}/> 
                             </div>
                         </div>
                     </li>

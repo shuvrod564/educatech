@@ -62,7 +62,7 @@ const Categories = () => {
                                     <div className="categories-block">
                                         <div className="mb-3">
                                             <Link href={"#"} className="d-block">
-                                                <Image src={category.thumbnail} width={312} height={312} alt={category.title} /> 
+                                                <Image src={category.thumbnail} width={312} height={312} alt={category.title} className="w-100" /> 
                                             </Link>
                                         </div>
                                         <div className="categories-text">

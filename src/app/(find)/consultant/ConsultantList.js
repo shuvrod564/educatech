@@ -64,8 +64,8 @@ const ConsultantList = () => {
         <ul className="list-unstyled ps-0 mb-0">
             {
                 data.map((consultant, index)=>(
-                    <li className="p-4 border-bottom" key={index}>
-                        <div className="d-flex gap-3 gap-md-4">
+                    <li className="p-3 p-sm-4 border-bottom" key={index}>
+                        <div className="d-sm-flex gap-3 gap-md-4">
                             <figure className={`${styles.thumbnail} mb-0`}>
                                 <Image
                                     src={consultant.thumbnail}
@@ -73,11 +73,11 @@ const ConsultantList = () => {
                                     alt={consultant.name}
                                 />
                             </figure>
-                            <div className="col"> 
+                            <div className="col mt-3 mt-sm-0"> 
                                 <h2 className='lead-sm mb-1'>
                                     <Link href={"#"}>{consultant.name}</Link>
                                 </h2>
-                                <div className="d-flex justify-content-between align-items-center">
+                                <div className="d-flex flex-wrap justify-content-between align-items-center">
                                     <div className={`d-inline-flex align-items-center fw-medium flex-wrap gap-2 ${styles.skils}`}>
                                         {
                                             consultant.expertise.map((expert, index)=>(

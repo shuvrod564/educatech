@@ -52,7 +52,7 @@ const ConsultantList = () => {
             {
                 data.map((consultant, index)=>(
                     <li className="p-4 border-bottom" key={index}>
-                        <div className="d-flex gap-3 gap-md-4">
+                        <div className="d-sm-flex gap-3 gap-md-4">
                             <figure className={`${styles.thumbnail} mb-0`}>
                                 <Image
                                     src="/images/icons/find-training.png"
@@ -60,14 +60,14 @@ const ConsultantList = () => {
                                     alt={consultant.name}
                                 />
                             </figure>
-                            <div className="col"> 
-                                <div className="d-flex justify-content-between align-items-center">
+                            <div className="col mt-3 mt-sm-0"> 
+                                <div className="d-sm-flex flex-wrap justify-content-between align-items-center">
                                     <div className="col">
                                         <h2 className='lead-sm mb-1'>
                                             <Link href={"/training/detail"}>{consultant.name}</Link>
                                         </h2>
 
-                                        <div className={`d-inline-flex align-items-center fw-medium flex-wrap gap-2 ${styles.skils}`}>
+                                        <div className={`fw-medium flex-wrap gap-2 ${styles.skils}`}>
                                             {
                                                 consultant.expertise.map((expert, index)=>(
                                                     <span key={index}>{expert.skill}</span> 
@@ -75,7 +75,7 @@ const ConsultantList = () => {
                                             } 
                                         </div>
                                     </div>
-                                    <div className={` d-inline-flex align-items-center fw-medium text-muted gap-1`}>
+                                    <div className={` d-inline-flex align-items-center fw-medium text-muted gap-1 mt-3 mt-sm-0`}>
                                         <Link href={"#"} className="btn btn-primary">Register Now</Link>
                                     </div>
                                 </div>
