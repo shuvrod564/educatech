@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata = {
   title: "Foundations of PLS-SEM Using SmartPLS 4"
@@ -174,12 +175,12 @@ const page = () => {
                 </ul>
                 <ul className="list-unstyled ps-0 row g-2">
                   <li className="col-6"><button className="btn btn-outline-light w-100">
-                    <img src="/images/icons/like-icon.png"></img>
+                    <Image src="/images/icons/like-icon.png" width={24} height={24} alt='link' />
                   </button>
                   </li>
                   <li className="col-6">
                     <button className="btn btn-outline-light w-100">
-                      <img src="/images/icons/share-icon.png"></img>
+                      <Image src="/images/icons/share-icon.png" width={24} height={24} alt='link' /> 
                     </button>
                   </li>
                 </ul>
