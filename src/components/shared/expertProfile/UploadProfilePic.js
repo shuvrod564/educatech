@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./styles.module.css"
 import Image from 'next/image'
+import { HiOutlineUpload } from "react-icons/hi";
 
 const UploadProfilePic = () => {
     return (
@@ -16,8 +17,8 @@ const UploadProfilePic = () => {
                     <p className="small fst-italic text-center mt-2">Max 2MB 500px 500px</p>
                     </div>
                     <div className="d-block text-center"> 
-                        <label htmlFor='uploadPhoto' className="btn btn-outline-primary gap-2 d-inline-flex">
-                            <Image src="/images/icons/upload-user-icon.png" width={17} height={16} alt="upload icon"></Image>
+                        <label htmlFor='uploadPhoto' className="btn btn-outline-primary gap-2 d-inline-flex align-items-center">
+                            <HiOutlineUpload className="fs-4" />
                             <span>Upload Photo</span>
                             <input type="file" id="uploadPhoto" name="filename" className="position-absolute top-0 start-0 opacity-0 w-100"/> 
                         </label>

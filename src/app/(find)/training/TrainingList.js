@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import styles from './TrainingList.module.css'
 import Image from 'next/image'
+import { IoVideocam } from 'react-icons/io5'
 
 const data = [
     {
@@ -95,7 +96,11 @@ const ConsultantList = () => {
                                             </tr>
                                             <tr>
                                                 <td>Training Mode</td>
-                                                <td><img src="images/icons/zoom-icon.png"></img>Live via Zoom</td>
+                                                <td>
+                                                <div className="d-inline-flex align-items-center gap-1">
+                                                <IoVideocam className='text-primary fs-5' />Live via Zoom
+                                                </div>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>Language</td>

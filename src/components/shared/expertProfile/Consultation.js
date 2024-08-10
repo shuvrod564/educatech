@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import styles from './styles.module.css'
 import { IoSearch } from "react-icons/io5"
+import { HiOutlineUpload } from "react-icons/hi";
 
 const Consultation = () => {
     const [permision, setPermision] = useState(true)
@@ -47,7 +48,9 @@ const Consultation = () => {
                             </div>
                             <div className="col-sm-6">
                                 <form className="position-relative">
-                                    <label htmlFor='fileToUpload' className="btn btn-outline-primary d-block"><img src="/images/icons/upload-new.png"/></label>
+                                    <label htmlFor='fileToUpload' className="btn btn-outline-primary d-inline-flex align-items-center">
+                                    <HiOutlineUpload className="fs-4" /> <span>Upload photo</span>
+                                    </label>
                                     <input type="file" name="fileToUpload" id="fileToUpload" className="position-absolute top-0 start-0 opacity-0"/>
                                 </form>
                             </div>

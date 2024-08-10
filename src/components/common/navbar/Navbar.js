@@ -70,7 +70,7 @@ const Navbar = () => {
                                                 <Link className="nav-link" href="/scholarship-database/">Scholarships Database</Link>
                                             </li> 
                                             <li className="nav-item">
-                                                <a className="nav-link" href="/about">About Us</a>
+                                                <Link className="nav-link" href="/about">About Us</Link>
                                             </li>
                                         </ul>
                                     </div> 
@@ -121,7 +121,7 @@ const Navbar = () => {
                                 <Link className={styles.nav__link} href="/scholarship-database/" onClick={()=>setShowResMenu(false)}>Scholarships Database</Link>
                             </li> 
                             <li>
-                                <a className={styles.nav__link} href="/about/" onClick={()=>setShowResMenu(false)}>About Us</a>
+                                <Link className={styles.nav__link} href="/about/" onClick={()=>setShowResMenu(false)}>About Us</Link>
                             </li>
                         </ul>
                     </div>

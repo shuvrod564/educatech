@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { IoShareSocialSharp, IoVideocam } from "react-icons/io5";
+import { FiHeart } from 'react-icons/fi';
 
 export const metadata = {
   title: "Foundations of PLS-SEM Using SmartPLS 4"
@@ -33,7 +35,11 @@ const page = () => {
                     </tr>
                     <tr>
                       <td>Training Mode</td>
-                      <td><img src="/images/icons/zoom-icon.png"></img>Live via Zoom</td>
+                      <td>
+                        <div className="d-inline-flex align-items-center gap-1">
+                        <IoVideocam className='text-primary fs-5' />Live via Zoom
+                        </div>
+                      </td>
                     </tr>
                     <tr>
                       <td>Language</td>
@@ -172,13 +178,14 @@ const page = () => {
                   <li><Link href="#" className="btn btn-outline-primary w-100">Message Now</Link></li>
                 </ul>
                 <ul className="list-unstyled ps-0 row g-2">
-                  <li className="col-6"><button className="btn btn-outline-light w-100">
-                    <Image src="/images/icons/like-icon.png" width={24} height={24} alt='link' />
+                  <li className="col-6">
+                    <button className="btn btn-outline-light w-100 fs-4 text-primary lh-1 py-2">
+                    <FiHeart />
                   </button>
                   </li>
                   <li className="col-6">
-                    <button className="btn btn-outline-light w-100">
-                      <Image src="/images/icons/share-icon.png" width={24} height={24} alt='link' /> 
+                    <button className="btn btn-outline-light w-100 fs-4 text-primary lh-1 py-2">
+                      <IoShareSocialSharp />
                     </button>
                   </li>
                 </ul>

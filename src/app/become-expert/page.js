@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
+import { LiaUserTieSolid } from "react-icons/lia";
+import { GoLocation } from "react-icons/go";
+import { GoClock } from "react-icons/go";
 
 const page = () => {
     return (
@@ -15,7 +18,7 @@ const page = () => {
                                     <li>
                                         <a href="#">
                                             <div className={styles.expert__left__img}>
-                                                <img src="images/icons/register2.png"></img>
+                                                <LiaUserTieSolid className="text-primary fs-3" />
                                             </div>
                                             <p>Create your consultant profile by answering a few question</p>
                                         </a>
@@ -23,7 +26,7 @@ const page = () => {
                                     <li>
                                         <a href="#">
                                             <div className={styles.expert__left__img}>
-                                                <img src="images/icons/register2.png"></img>
+                                                <LiaUserTieSolid className="text-primary fs-3" />
                                             </div>
                                             <p>Browse current academic projects or list academic services for clients </p>
                                         </a>
@@ -31,7 +34,7 @@ const page = () => {
                                     <li>
                                         <a href="#">
                                             <div className={styles.expert__left__img}>
-                                                <img src="images/icons/register2.png"></img>
+                                                <LiaUserTieSolid className="text-primary fs-3" />
                                             </div>
                                             <p>Get paid securely - our team is here to help</p>
                                         </a>
@@ -56,8 +59,8 @@ const page = () => {
                                     </div>
                                     <div className="consultant-left-sydney">
                                         <ul className="list-unstyled ps-0 mb-0 d-flex flex-column gap-1">
-                                            <li><img src="images/icons/map-icon.png"/>Sydney, Australia</li>
-                                            <li><img src="images/icons/time-icon.png"/>10.15am AEST</li>
+                                            <li className='d-inline-flex gap-1 justify-content-center'><GoLocation className="text-primary fs-5" />Sydney, Australia</li>
+                                            <li className='d-inline-flex gap-1 justify-content-center'><GoClock className="text-primary fs-5" /> 10.15am AEST</li>
                                         </ul>
                                     </div>
                                 </div>
